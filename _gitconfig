@@ -1,0 +1,12 @@
+[user]
+	nmae = Accent
+	name = accent
+	email = start.world.end@gmail.com
+
+[alias]
+    s = status
+    graph = log --graph -10 --branches --remotes --tags  --format=format:'%Cgreen%h %Creset• %<(75,trunc)%s (%cN, %cr) %Cred%d' --date-order
+    precommit = diff --cached --diff-algorithm=minimal -w
+    remotes = remote -v
+    branches = branch -a
+    nevermind = !git reset --hard HEAD && git clean -d -f
