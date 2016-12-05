@@ -24,6 +24,7 @@ set t_Co=256
 colorscheme ron 
 highlight CursorColumn ctermbg=241 ctermfg=NONE
 highlight cursorline ctermfg=NONE ctermbg = NONE
+syntax on
 " 挿入モードの時のみ、カーソル行をハイライトするcterm=underline 
 "autocmd InsertEnter,InsertLeave * set cursorline!
 
