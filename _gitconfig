@@ -1,7 +1,6 @@
 [user]
-	nmae = Accent
 	name = accent
-	email = start.world.end@gmail.com
+	email = hasegawa@pcl.cs.waseda.ac.jp
 
 [alias]
     s = status
